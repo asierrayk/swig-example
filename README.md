@@ -8,6 +8,7 @@ python setup.py build_ext
 
 
 Example usage 
+```
 $ mkdir python && cd python
 $ virtualenv -p python3 venv
 $ source venv/bin/activate
@@ -17,3 +18,4 @@ $ python
 >> from example import fact
 >> fact(5)
 120
+```
