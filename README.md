@@ -1,11 +1,14 @@
 This repository is an example of how to use c code in python using swig.
 
 Create the wrapper
+```
 $ swig -python example.i
+```
 
 Build the extension
+```
 python setup.py build_ext
-
+```
 
 Example usage 
 ```
